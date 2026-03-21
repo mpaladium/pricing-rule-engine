@@ -1,0 +1,17 @@
+.git
+.gitignore
+.idea
+.vscode
+.classpath
+.project
+.settings
+
+target
+**/target
+
+.env
+.env.*
+!.env.example
+
+README.md
+LICENSE
