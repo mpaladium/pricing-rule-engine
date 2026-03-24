@@ -4,7 +4,9 @@ target/
 *.log
 *.tmp
 *.pid
-docs.md
+docs/*
+!docs/ARCHITECTURE.md
+
 # Maven release and wrapper runtime files
 pom.xml.tag
 pom.xml.releaseBackup

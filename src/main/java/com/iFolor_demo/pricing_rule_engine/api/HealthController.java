@@ -1,4 +1,4 @@
-package com.icolor_demo.pricing_rule_engine.api;
+package com.iFolor_demo.pricing_rule_engine.api;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -24,7 +24,7 @@ public class HealthController {
         description = "Returns service health status for the configured API version"
     )
     public HealthResponse health() {
-        return new HealthResponse("OK", "pricing-rule-engine", apiVersion);
+        return new HealthResponse("UP", "pricing-rule-engine", apiVersion);
     }
 
     public record HealthResponse(

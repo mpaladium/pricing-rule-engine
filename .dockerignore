@@ -13,5 +13,6 @@ target
 .env.*
 !.env.example
 
+*.md
 README.md
 LICENSE

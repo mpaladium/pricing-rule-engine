@@ -10,7 +10,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.icolor_demo</groupId>
+	<groupId>com.iFolor_demo</groupId>
 	<artifactId>pricing-rule-engine</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>pricing-rule-engine</name>

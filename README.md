@@ -28,6 +28,17 @@ Pricing Rule Engine API server built with Java and Spring Boot. A project demons
   - `LOG_LEVEL_ROOT`, `LOG_LEVEL_APP`
   - `MANAGEMENT_ENDPOINTS`
 
+## Pricing Design
+
+- Deterministic orchestration pipeline:
+  - compute base price
+  - apply discount rules
+  - apply voucher
+  - apply shipping
+- Extension points are interface-based, so new pricing rules, calculation models, and voucher/discount types can be added without rewriting the core flow.
+- All price changes are adjustments: `BASE`, `DISCOUNT`, `SHIPPING`.
+- Response includes explainable breakdown, applied rules, and decision trail.
+
 ## Run the App (Local)
 
 ```bash

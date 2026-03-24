@@ -1,4 +1,4 @@
-package com.icolor_demo.pricing_rule_engine;
+package com.iFolor_demo.pricing_rule_engine;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

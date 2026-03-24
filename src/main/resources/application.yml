@@ -44,7 +44,7 @@ springdoc:
 logging:
   level:
     root: ${LOG_LEVEL_ROOT:INFO}
-    com.icolor_demo: ${LOG_LEVEL_APP:INFO}
+    com.iFolor_demo: ${LOG_LEVEL_APP:INFO}
   pattern:
     console: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} %-5level [%thread] %logger{40} - %msg%n"
 
